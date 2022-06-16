@@ -1,15 +1,19 @@
 {
   "name": "shallow-instance",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A test utility to instantiate your class, mocking all it's constructor parameters",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Filipe Versehgi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/filipeversehgi/shallow-instance"
+  },
+  "license": "MIT",
   "scripts": {
     "test": "jest",
     "prepublish": "tsc"
   },
-  "author": "Filipe Versehgi",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "license": "ISC",
   "keywords": [
     "jest", "shallow", "unit-test", "nestjs", "dependency-injection"
   ],
