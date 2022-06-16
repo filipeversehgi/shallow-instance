@@ -1,0 +1,24 @@
+{
+  "name": "shallow-instance",
+  "version": "1.0.0",
+  "description": "A test utility to instantiate your class, mocking all it's constructor parameters",
+  "scripts": {
+    "test": "jest",
+    "prepublish": "tsc"
+  },
+  "author": "Filipe Versehgi",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "ISC",
+  "keywords": [
+    "jest", "shallow", "unit-test", "nestjs", "dependency-injection"
+  ],
+  "devDependencies": {
+    "@types/jest": "^28.1.1",
+    "jest": "^28.1.1",
+    "ts-jest": "^28.0.5",
+    "tsc": "^2.0.4",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {}
+}
