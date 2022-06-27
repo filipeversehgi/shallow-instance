@@ -1,1 +1,2 @@
-export { CreateShallowInstance, TGetDependency, TDependencies, TShallowTestClassSut, TServiceInstance } from './src/index'
+export { CreateShallowInstance } from './src/index'
+export { TGetDependency, TDependencies, TShallowTestClassSut, TServiceInstance } from './src/types'

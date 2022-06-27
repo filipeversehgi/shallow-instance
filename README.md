@@ -82,3 +82,23 @@ describe('an easier way to instantiate my class', () => {
     })
 })
 ```
+
+## Passing Default Mocks
+
+If you want, you can provide your mocks in the moment that CreateShallowInstance is called:
+
+```ts
+// Create your premake mock object
+const premadeMocks: TDefaultMocks<typeof ServiceToTest, DEPS> = {
+    [DEPS.DEP_A]: {
+        methodA: () => 999
+    }
+}
+
+// Call passing the object as the last parameter
+const { 
+    serviceInstance, 
+    getDependency 
+} = CreateShallowInstance(ServiceToTest, DEPS, premadeMocks);
+            
+```
